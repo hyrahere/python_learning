@@ -74,4 +74,5 @@ while running:
 		pygame.draw.circle(window, ball.color, ball.pos, BALL_RADIUS)
 	pygame.display.flip()
 	clock.tick(60)
+
 pygame.quit()
